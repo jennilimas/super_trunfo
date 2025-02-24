@@ -14,7 +14,7 @@ int main(){
     printf("Digite a letra representante do estado (entre A a H): ");
     scanf("%c", &estado);
 
-    printf("Digite o código da carta (letra mais um número de 01 a 04): ");
+    printf("Digite o código da carta (letra do estado mais um número de 01 a 04): ");
     scanf("%s", codigo);
     //Para remover o caractere de quebra de linha antes da chamada da função fgets e
     //evitar que seja incluído na entrada de dados
